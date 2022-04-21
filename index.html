@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Форма обратной связи с валидацией</title>
+	</head>
+	<body>
+		<div class="wrapper">
+      <div class="form">
+        <form action="#" id="form" class="form__body">
+          <div class="form__item" data-wow-delay=".3s">
+            <label for="formName" class="form__label">Имя <span class="star">*</span> :</label>
+            <input id="formName" type="text" name="name" class="form__input req">
+          </div>
+          <div class="form__item" data-wow-delay=".3s">
+            <label for="formEmail" class="form__label">E-mail <span class="star">*</span> :</label>
+            <input id="formEmail" type="text" name="email" class="form__input req email">
+          </div>
+          <div class="form__item" data-wow-delay=".3s">
+            <label for="formMessage" class="form__label">Сообщение:</label>
+            <textarea name="message" id="formMessage" class="form__input"></textarea>
+          </div>
+          <button type="submit" class="form__button" data-wow-delay=".5s">Отправить</button>
+        </form>
+      </div>
+		</div>
+		<script src="js/form.js"></script>
+	</body>
+</html>
